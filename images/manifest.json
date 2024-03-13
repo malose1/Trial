@@ -1,0 +1,67 @@
+{
+  "id" : "https://malose1.github.io/Trial/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in malose1/Trial project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 2048,
+    "id" : "https://malose1.github.io/Trial/images/DSCF0129/canvas/",
+    "label" : {
+      "none" : [ "DSCF0129" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://malose1.github.io/Trial/images/DSCF0129/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://malose1.github.io/Trial/images/DSCF0129/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 64,
+              "height" : 48
+            }, {
+              "width" : 128,
+              "height" : 96
+            }, {
+              "width" : 256,
+              "height" : 192
+            }, {
+              "width" : 512,
+              "height" : 384
+            }, {
+              "width" : 1024,
+              "height" : 768
+            }, {
+              "width" : 2048,
+              "height" : 1536
+            } ],
+            "profile" : "level0",
+            "width" : 2048,
+            "id" : "https://malose1.github.io/Trial/images/DSCF0129",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 1536
+          } ],
+          "format" : "image/jpeg",
+          "width" : 2048,
+          "id" : "https://malose1.github.io/Trial/images/DSCF0129/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 1536
+        },
+        "target" : "https://malose1.github.io/Trial/images/DSCF0129/canvas/"
+      } ]
+    } ],
+    "height" : 1536
+  } ]
+}
